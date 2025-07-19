@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: tpch_sf1
+    description: "Sample TPCH data from Snowflake TPCH_SF1 schema"
+    schema: TPCH_SF1
+    database: SNOWFLAKE_SAMPLE_DATA
+
+    tables:
+      - name: customer
+        description: "Customer information"
+      - name: lineitem
+        description: "Line items for orders"
+      - name: nation
+        description: "Nation reference data"
+      - name: orders
+        description: "Orders placed by customers"
+      - name: part
+        description: "Parts available for sale"
+      - name: partsupp
+        description: "Supplier information for parts"
+      - name: region
+        description: "Regional reference data"
+      - name: supplier
+        description: "Supplier company details"
